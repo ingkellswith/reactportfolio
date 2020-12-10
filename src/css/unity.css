@@ -1,0 +1,35 @@
+.unity-sourcecode {
+  background-color: #050807;
+  border-radius: 40px;
+  padding: 14px;
+  font-size: 25px;
+  margin: 20px;
+}
+.unity-logo {
+  width: 200px;
+  height: 200px;
+  background-image: url("../earthplay.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin-left: 120px;
+  margin-right: 40px;
+}
+.unity-clone {
+  font-weight: 200;
+  font-size: 40px;
+  margin-right: 20px;
+}
+.unity-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 340px;
+  padding-left: 60px;
+  font-weight: 200;
+  font-size: 30px;
+  border-left: 0.5px solid white;
+}
+.unity-content .span-title {
+  font-weight: 400;
+  font-size: 30px;
+}

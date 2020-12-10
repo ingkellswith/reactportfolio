@@ -1,0 +1,30 @@
+@import "header.css";
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap");
+@import "mainbody.css";
+@import "about.css";
+@import "stacks.css";
+@import "nodejs.css";
+@import "socket.css";
+@import "react.css";
+@import "native.css";
+@import "python.css";
+@import "unity.css";
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0c0a0a;
+  color: white;
+  overflow: hidden;
+  font-family: "Titillium Web", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

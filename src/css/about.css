@@ -1,0 +1,16 @@
+@keyframes appear {
+  from {
+    background-color: rgba(172, 172, 172, 0);
+  }
+  to {
+    background-color: rgba(172, 172, 172, 0.2);
+  }
+}
+@keyframes appearText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

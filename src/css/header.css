@@ -1,0 +1,21 @@
+header {
+  width: 100vw;
+  height: 14vh;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+header .header-title {
+  margin-left: 300px;
+  font-weight: 400;
+  font-size: 40px;
+}
+header .menu {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 300px;
+  font-size: 18px;
+}

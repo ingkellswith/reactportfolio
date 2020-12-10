@@ -1,0 +1,50 @@
+.stack-container {
+  width: 88vw;
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+  animation: appearText 1s ease-in-out forwards;
+}
+.stack {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #040707;
+  margin: 0px 20px;
+}
+.nodejs {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-image: url("https://pluralsight2.imgix.net/paths/images/nodejs-45adbe594d.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.react {
+  width: 250px;
+  height: 175px;
+  border-radius: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.python {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-image: url("https://www.python.org/static/opengraph-icon-200x200.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.unity {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-image: url("https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-tab-square-black.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

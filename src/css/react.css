@@ -1,0 +1,47 @@
+.reactjs-sourcecode {
+  background-color: #050807;
+  border-radius: 40px;
+  padding: 14px;
+  font-size: 25px;
+  margin: 10px;
+}
+.reactjs-works {
+  background-color: #050807;
+  border-radius: 40px;
+  padding: 14px;
+  font-size: 25px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reactjs-logo {
+  width: 270px;
+  height: 270px;
+  background-image: url("https://external-preview.redd.it/fdkqLmQJyhAIVu-kuccpVRtJQLjg9XAcH01ABTxr1LU.png?auto=webp&s=5fce8c27f55668b1ff30df66f25ab9b865b8d041");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin-left: 90px;
+  margin-right: 20px;
+}
+.reactjs-clone {
+  font-weight: 200;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.reactjs-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  padding-left: 60px;
+  font-weight: 200;
+  font-size: 30px;
+  border-left: 0.5px solid white;
+}
+.reactjs-content .span-title {
+  font-weight: 400;
+  font-size: 30px;
+}
