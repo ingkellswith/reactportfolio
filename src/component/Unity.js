@@ -27,6 +27,28 @@ const CONTENTS_BOX = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 60px;
+  @media screen and (max-width: 900px), screen and (max-height: 500px) {
+    flex-direction: column;
+    .unity-content {
+      font-size: 12px;
+    }
+    .unity-content .span-title {
+      font-size: 12px;
+    }
+    .unity-sourcecode {
+      font-size: 8px;
+    }
+    .unity-works {
+      font-size: 8px;
+    }
+    .unity-clone {
+      font-size: 15px;
+    }
+    .unity-logo {
+      width: 90px;
+      height: 90px;
+    }
+  }
 `;
 
 const Unity = () => {
@@ -58,6 +80,11 @@ const Unity = () => {
           </div>
         </CONTENTS_BOX>
       </UNITY_CONTAINER>
+      <div id="no-mobile">
+        <span>Please view this page in desktop!</span>
+        <br></br>
+        <span class="least">(resolution at least 1850 x 880)</span>
+      </div>
     </>
   );
 };

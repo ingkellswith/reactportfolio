@@ -27,6 +27,28 @@ const CONTENTS_BOX = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 60px;
+  @media screen and (max-width: 900px), screen and (max-height: 500px) {
+    flex-direction: column;
+    .python-content {
+      font-size: 12px;
+    }
+    .python-content .span-title {
+      font-size: 12px;
+    }
+    .python-sourcecode {
+      font-size: 8px;
+    }
+    .python-works {
+      font-size: 8px;
+    }
+    .python-clone {
+      font-size: 15px;
+    }
+    .python-logo {
+      width: 90px;
+      height: 90px;
+    }
+  }
 `;
 
 const Python = () => {
@@ -57,6 +79,11 @@ const Python = () => {
           </div>
         </CONTENTS_BOX>
       </NODEJS_CONTAINER>
+      <div id="no-mobile">
+        <span>Please view this page in desktop!</span>
+        <br></br>
+        <span class="least">(resolution at least 1850 x 880)</span>
+      </div>
     </>
   );
 };

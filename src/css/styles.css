@@ -10,11 +10,13 @@
 @import "python.css";
 @import "unity.css";
 body {
-  width: 100vw;
+  box-sizing: border-box;
+  width: 98.44vw;
   height: 100vh;
+
   background-color: #0c0a0a;
   color: white;
-  overflow: hidden;
+
   font-family: "Titillium Web", sans-serif;
 }
 a {
@@ -27,4 +29,36 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: #1e1f21;
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  font-size: 32px;
+  color: white;
+}
+#no-mobile .least {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+#no-mobile {
+  visibility: hidden;
+}
+@media screen and (max-width: 900px) {
+  .title {
+    font-size: 24px;
+  }
+  .summary {
+    font-size: 12px;
+  }
 }

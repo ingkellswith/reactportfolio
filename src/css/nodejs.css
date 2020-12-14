@@ -26,6 +26,7 @@
   font-weight: 400;
   font-size: 30px;
 }
+
 .youtube-sourcecode {
   background-color: #050807;
   border-radius: 40px;
@@ -57,4 +58,48 @@
   font-weight: 200;
   padding-bottom: 6px;
   padding-right: 10px;
+}
+@media screen and (max-width: 1800px), screen and (max-height: 850px) {
+  .content {
+    font-size: 20px;
+  }
+  .youtube-sourcecode {
+    font-size: 12px;
+  }
+  .youtube-works {
+    font-size: 12px;
+  }
+  .youtube-clone {
+    font-size: 20px;
+  }
+  .youtube-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 900px), screen and (max-height: 500px) {
+  .youtube-logo {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  .youtube-clone {
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+  .youtube-sourcecode {
+    padding: 1px 5px;
+    margin: 5px;
+  }
+  .youtube-works {
+    padding: 1px 5px;
+    margin: 5px;
+  }
+  .content {
+    margin-left: 0px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border-left: 0.2px solid white;
+  }
 }

@@ -15,6 +15,8 @@ const globalStyles = createGlobalStyle`
         color:white;
         font-weight:200;
     }
+    
+      
 
 `;
 

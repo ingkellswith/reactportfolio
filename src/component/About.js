@@ -22,6 +22,9 @@ const ABOUT_TITLE = styled.div`
   text-align: center;
   line-height: 1.6;
   animation: appearText 1s ease-in-out forwards;
+  @media screen and (max-width: 900px) {
+    font-size: 20px;
+  }
 `;
 const ABOUT_SUMMARY = styled.div`
   font-size: 30px;
@@ -33,6 +36,9 @@ const ABOUT_SUMMARY = styled.div`
     font-family: "MaruBuri-Regular";
   }
   animation: appearText 1s ease-in-out forwards;
+  @media screen and (max-width: 900px) {
+    font-size: 12px;
+  }
 `;
 
 const Header = () => {
@@ -52,6 +58,11 @@ const Header = () => {
           </ABOUT_SUMMARY>
         </TITLE>
       </ABOUT_CONTAINER>
+      <div id="no-mobile">
+        <span>Please view this page in desktop!</span>
+        <br></br>
+        <span class="least">(resolution at least 1850 x 880)</span>
+      </div>
     </>
   );
 };

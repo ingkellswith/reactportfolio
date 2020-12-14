@@ -33,3 +33,49 @@
   font-weight: 400;
   font-size: 30px;
 }
+@media screen and (max-width: 1800px), screen and (max-height: 850px) {
+  .python-content {
+    font-size: 20px;
+  }
+  .python-sourcecode {
+    font-size: 12px;
+  }
+  .python-works {
+    font-size: 12px;
+  }
+  .python-clone {
+    font-size: 20px;
+  }
+  .python-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 900px), screen and (max-height: 500px) {
+  .python-logo {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+  .python-clone {
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+  .python-sourcecode {
+    padding: 1px 5px;
+    margin: 5px;
+    margin-top: 20px;
+  }
+  .python-works {
+    padding: 1px 5px;
+    margin: 5px;
+  }
+  .python-content {
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border-left: 0.2px solid white;
+  }
+}

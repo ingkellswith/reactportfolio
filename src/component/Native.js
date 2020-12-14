@@ -28,12 +28,38 @@ const CONTENTS_BOX = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 60px;
+  @media screen and (max-width: 900px), screen and (max-height: 500px) {
+    flex-direction: column;
+    .reactjs-content {
+      font-size: 12px;
+    }
+    .reactjs-content .span-title {
+      font-size: 12px;
+    }
+    .reactnative-sourcecode {
+      font-size: 8px;
+    }
+    .reactnative-works {
+      font-size: 8px;
+    }
+    .reactnative-clone {
+      font-size: 15px;
+    }
+  }
 `;
 
 const LINK = styled(Link)`
   textdecoration: "none";
   color: white;
   font-weight: 200;
+  @media screen and (max-width: 900px), screen and (max-height: 500px) {
+    .previous span {
+      font-size: 11px;
+    }
+    .previous i {
+      font-size: 11px;
+    }
+  }
 `;
 const React = () => {
   return (
@@ -72,6 +98,11 @@ const React = () => {
           </div>
         </LINK>
       </REACTJS_CONTAINER>
+      <div id="no-mobile">
+        <span>Please view this page in desktop!</span>
+        <br></br>
+        <span class="least">(resolution at least 1850 x 880)</span>
+      </div>
     </>
   );
 };

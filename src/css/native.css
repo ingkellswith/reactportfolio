@@ -41,3 +41,57 @@
   margin-top: -5px;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 1800px), screen and (max-height: 850px) {
+  .reactjs-content {
+    font-size: 20px;
+  }
+  .reactnative-sourcecode {
+    font-size: 12px;
+  }
+  .reactnative-works {
+    font-size: 12px;
+  }
+  .reactnative-clone {
+    font-size: 20px;
+  }
+  .reactnative-logo {
+    width: 0px;
+    height: 0px;
+  }
+}
+@media screen and (max-width: 900px), screen and (max-height: 500px) {
+  .reactnative-logo {
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+  .reactnative-works .qrcode {
+    width: 150px;
+    height: 150px;
+  }
+  .reactnative-clone {
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+  .reactnative-sourcecode {
+    padding: 1px 5px;
+    margin: 5px;
+  }
+  .reactnative-works {
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+  }
+  .reactjs-content {
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border-left: 0.2px solid white;
+  }
+}

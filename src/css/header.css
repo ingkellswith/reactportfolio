@@ -1,21 +1,36 @@
 header {
-  width: 100vw;
+  width: 99vw;
   height: 14vh;
   font-size: 40px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
+
 header .header-title {
-  margin-left: 300px;
+  width: 50%;
   font-weight: 400;
   font-size: 40px;
+  display: flex;
+  justify-content: center;
 }
 header .menu {
-  width: 300px;
+  width: 50%;
   display: flex;
-  justify-content: space-between;
-  margin-right: 300px;
+  justify-content: center;
   font-size: 18px;
+}
+header .menu .about {
+  padding: 0px 40px;
+}
+header .menu .stacks {
+  padding: 0px 40px;
+}
+@media screen and (max-width: 900px) {
+  header .menu .about {
+    padding: 0px 5px;
+  }
+  header .menu .stacks {
+    padding: 0px 5px;
+  }
 }

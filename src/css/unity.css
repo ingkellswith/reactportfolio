@@ -33,3 +33,49 @@
   font-weight: 400;
   font-size: 30px;
 }
+@media screen and (max-width: 1800px), screen and (max-height: 850px) {
+  .unity-content {
+    font-size: 20px;
+  }
+  .unity-sourcecode {
+    font-size: 12px;
+  }
+  .unity-works {
+    font-size: 12px;
+  }
+  .unity-clone {
+    font-size: 20px;
+  }
+  .unity-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 900px), screen and (max-height: 500px) {
+  .unity-logo {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+  .unity-clone {
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+  .unity-sourcecode {
+    padding: 1px 5px;
+    margin: 5px;
+    margin-top: 20px;
+  }
+  .unity-works {
+    padding: 1px 5px;
+    margin: 5px;
+  }
+  .unity-content {
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border-left: 0.2px solid white;
+  }
+}
